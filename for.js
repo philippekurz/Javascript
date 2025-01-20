@@ -1,0 +1,1 @@
+// Ecrire une boucle for qui affiche les nombres de 1 à 10 et l'exécuter avec "node for.js"
