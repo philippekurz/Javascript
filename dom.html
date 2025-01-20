@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulation du DOM</title>
+</head>
+<body>
+    <h1>Manipulation du DOM (Document Object Model)</h1>
+
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+
+    <p id="para2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aliquid aliquam provident!</p>
+
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et labore tempora repudiandae ipsa porro eaque explicabo enim, amet ullam similique totam odio debitis dolor quibusdam, in ducimus doloribus architecto quae?</div>
+
+    <button onclick="changeColor()">Change color</button>
+    <script>
+        function changeColor() {
+            document.getElementById("para1").style.color = "red";
+            document.getElementById("para1").innerHTML="Bonjour";
+        }
+    </script>
+</body>
+</html>
